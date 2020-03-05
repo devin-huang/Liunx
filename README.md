@@ -27,8 +27,8 @@
     - `tar -xvf` 解压
  - liunx 安装插件
    - 切换为root用户
-    - * yum：CentOS中的Shell前端软件包管理器，默认系统已安装。安装方法：https://rpm.nodesource.com/ *
-    - * nodejs 安装步骤： *
+    - yum：CentOS中的Shell前端软件包管理器，默认系统已安装。安装方法：https://rpm.nodesource.com/ 
+    - nodejs 安装步骤： 
       - 添加源：`curl -sl https://rpm.nodesource.com/setup_11.x | bash -`
       - 全局安装：`yum install -y nodejs`
       - 查看 `node -v / npm -v`
